@@ -1,0 +1,11 @@
+class powerfunction:
+    def __init__(self, base, exp):
+        self.base = base
+        self.exp = exp
+       
+
+p1 = powerfunction(10, 2)
+print("The power value is : ",pow(p1.base,p1.exp))
+
+#output:
+The power value is :  100
